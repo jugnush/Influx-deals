@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27T19:01:08.086Z",
+  "checked": "2026-11-27T19:42:42.241Z",
   "categories": [
     {
       "id": "drives",
@@ -71,7 +71,7 @@
               "store": "Walmart",
               "price": 1399.99,
               "url": "https://www.walmart.com/ip/LG-65-C6-Series-4K-UHD-OLED-AI-Smart-webOS-26-TV-OLED65C6PUA/18196407846?classType=REGULAR&athbdg=L1103",
-              "at": 1795806067869
+              "at": 1795808534040
             }
           ],
           "bestbuySku": "6673112",
@@ -128,7 +128,7 @@
               "store": "Walmart",
               "price": 298,
               "url": "https://www.walmart.com/ip/Samsung-65-Class-U8000H-Series-Crystal-UHD-4K-UHD-Samsung-Vision-AI-Companion-Smart-Tizen-TV-2026-UN65U8000HFXZA/18200354479?classType=VARIANT&athbdg=L1300",
-              "at": 1795806067913
+              "at": 1795808539165
             }
           ],
           "bestbuySku": "6670835",
@@ -158,7 +158,7 @@
               "store": "Walmart",
               "price": 499,
               "url": "https://www.walmart.com/ip/Nintendo-Switch-2-Mario-Kart-World-Bundle/20865751029?classType=REGULAR&athbdg=L1800",
-              "at": 1795806067930
+              "at": 1795808539496
             }
           ],
           "bestbuySku": "6689812",
@@ -212,15 +212,17 @@
           "name": "Sony WH-1000XM5 headphones",
           "deals": [
             {
-              "store": "Best Buy",
-              "price": 299.99,
-              "regular": 398,
-              "start": "2026-11-19",
-              "end": "2026-11-28"
-            },
-            {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Best Buy",
+              "price": 169.99,
+              "regular": 398,
+              "start": "2026-11-19",
+              "end": "2026-11-28",
+              "url": "https://www.bestbuy.com/site/6505727.p?skuId=6505727",
+              "at": 1795808550472
             }
           ],
           "bestbuySku": "6505727"
@@ -330,7 +332,7 @@
               "store": "Walmart",
               "price": 379,
               "url": "https://www.walmart.com/ip/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver/15483805722?classType=VARIANT&athbdg=L1800",
-              "at": 1795806068060
+              "at": 1795808561472
             }
           ],
           "photo": "https://i5.walmartimages.com/seo/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver_706ac209-a7b5-4521-b1dd-524d9a351ef1.7063c7c69acafb1a5587a11ff59ec9e8.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
