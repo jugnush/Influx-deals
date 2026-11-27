@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27T18:14:18Z",
+  "checked": "2026-11-27T19:01:08.086Z",
   "categories": [
     {
       "id": "drives",
@@ -64,16 +64,18 @@
           "name": "LG C6 65\" OLED 4K TV",
           "deals": [
             {
-              "store": "Walmart",
-              "price": 1349.99,
-              "regular": 2699.99
-            },
-            {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 1399.99,
+              "url": "https://www.walmart.com/ip/LG-65-C6-Series-4K-UHD-OLED-AI-Smart-webOS-26-TV-OLED65C6PUA/18196407846?classType=REGULAR&athbdg=L1103",
+              "at": 1795806067869
             }
           ],
-          "bestbuySku": "6673112"
+          "bestbuySku": "6673112",
+          "photo": "https://i5.walmartimages.com/seo/LG-65-C6-Series-4K-UHD-OLED-AI-Smart-webOS-26-TV-OLED65C6PUA_26e8bcf1-1be9-437a-af8d-429d8eb5098f.203ff1a873b7f8650ad3a607003c847c.png"
         },
         {
           "name": "Samsung 65\" The Frame Pro Neo QLED 4K",
@@ -81,7 +83,7 @@
             {
               "store": "Best Buy",
               "price": 1499.99,
-              "regular": 1999.0,
+              "regular": 1999,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
@@ -98,7 +100,7 @@
             {
               "store": "Best Buy",
               "price": 1999.99,
-              "regular": 3999.0,
+              "regular": 3999,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
@@ -121,9 +123,16 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 298,
+              "url": "https://www.walmart.com/ip/Samsung-65-Class-U8000H-Series-Crystal-UHD-4K-UHD-Samsung-Vision-AI-Companion-Smart-Tizen-TV-2026-UN65U8000HFXZA/18200354479?classType=VARIANT&athbdg=L1300",
+              "at": 1795806067913
             }
           ],
-          "bestbuySku": "6670835"
+          "bestbuySku": "6670835",
+          "photo": "https://i5.walmartimages.com/seo/Samsung-65-Class-U8000H-Series-Crystal-UHD-4K-UHD-Samsung-Vision-AI-Companion-Smart-Tizen-TV-2026-UN65U8000HFXZA_86f64318-e38c-4328-a519-95737b743ce4.b401ef77ece63d81a54a2c45d2d56182.jpeg"
         }
       ]
     },
@@ -135,11 +144,6 @@
           "name": "Nintendo Switch 2 + Mario Kart World bundle",
           "deals": [
             {
-              "store": "Walmart",
-              "price": 499.99,
-              "regular": 549.99
-            },
-            {
               "store": "Best Buy",
               "price": 499.99,
               "regular": 549.99,
@@ -149,9 +153,16 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 499,
+              "url": "https://www.walmart.com/ip/Nintendo-Switch-2-Mario-Kart-World-Bundle/20865751029?classType=REGULAR&athbdg=L1800",
+              "at": 1795806067930
             }
           ],
-          "bestbuySku": "6689812"
+          "bestbuySku": "6689812",
+          "photo": "https://i5.walmartimages.com/seo/Nintendo-Switch-2-Mario-Kart-World-Bundle_46a17dc0-bb6b-4ad1-8739-26b2d78b54c5.238104ef0cc4a19d71d59734bac90e36.jpeg"
         }
       ]
     },
@@ -164,7 +175,7 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 649.0,
+              "price": 649,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
@@ -203,7 +214,7 @@
             {
               "store": "Best Buy",
               "price": 299.99,
-              "regular": 398.0,
+              "regular": 398,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
@@ -219,8 +230,8 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 69.0,
-              "regular": 99.0,
+              "price": 69,
+              "regular": 99,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
@@ -243,8 +254,8 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 749.0,
-              "regular": 1099.0,
+              "price": 749,
+              "regular": 1099,
               "url": "https://www.bestbuy.com/site/6684520.p?skuId=6684520"
             },
             {
@@ -275,8 +286,8 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 599.0,
-              "regular": 799.0,
+              "price": 599,
+              "regular": 799,
               "url": "https://www.bestbuy.com/site/6637716.p?skuId=6637716"
             },
             {
@@ -307,15 +318,22 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 399.0,
-              "regular": 449.0,
+              "price": 399,
+              "regular": 449,
               "url": "https://www.bestbuy.com/site/6578270.p?skuId=6578270"
             },
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 379,
+              "url": "https://www.walmart.com/ip/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver/15483805722?classType=VARIANT&athbdg=L1800",
+              "at": 1795806068060
             }
-          ]
+          ],
+          "photo": "https://i5.walmartimages.com/seo/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver_706ac209-a7b5-4521-b1dd-524d9a351ef1.7063c7c69acafb1a5587a11ff59ec9e8.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         }
       ]
     },
