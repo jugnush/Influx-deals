@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27T18:14:18Z",
+  "checked": "2026-11-27T19:00:24.363Z",
   "categories": [
     {
       "id": "drives",
@@ -8,12 +8,6 @@
         {
           "name": "WD My Passport 2 TB",
           "deals": [
-            {
-              "store": "Walmart",
-              "price": 129.99,
-              "start": "2026-11-23",
-              "end": "2026-11-29"
-            },
             {
               "store": "Best Buy",
               "price": 137.99,
@@ -24,25 +18,32 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 129.99,
+              "url": "https://www.walmart.com/ip/Western-Digital-2TB-WD-My-Passport-Portable-External-Hard-Drive-HDD-Black-WDBYVG0020BBK-WESN/268875594?classType=REGULAR&athbdg=L1800",
+              "at": 1795805883582
             }
           ],
-          "imageSku": "11013494"
+          "imageSku": "11013494",
+          "photo": "https://i5.walmartimages.com/seo/Western-Digital-2TB-WD-My-Passport-Portable-External-Hard-Drive-HDD-Black-WDBYVG0020BBK-WESN_3a3e780e-ad42-442a-9aa7-13ccb2107753.432b5f56f6f4afb11ab652431bd1d1ee.png"
         },
         {
           "name": "WD Elements 2 TB",
           "deals": [
             {
-              "store": "Walmart",
-              "price": 132.99,
-              "regular": 169.99,
-              "start": "2026-11-23",
-              "end": "2026-11-29"
-            },
-            {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 133,
+              "url": "https://www.walmart.com/ip/WD-2TB-Elements-Portable-External-Hard-Drive-for-Windows-USB-3-2-Gen-1-USB-3-0-for-PC-Mac-Plug-and-Play-Ready-WDBU6Y0020BBK-WESN/55571907?classType=VARIANT&athbdg=L1600",
+              "at": 1795805889874
             }
-          ]
+          ],
+          "photo": "https://i5.walmartimages.com/seo/WD-2TB-Elements-Portable-External-Hard-Drive-for-Windows-USB-3-2-Gen-1-USB-3-0-for-PC-Mac-Plug-and-Play-Ready-WDBU6Y0020BBK-WESN_7a445a21-20f0-4d64-bf95-c9e464e2fc55.f9101a4a722d2913c7d742e54c47e231.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         },
         {
           "name": "Seagate Portable 2 TB",
@@ -50,9 +51,16 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 149,
+              "url": "https://www.walmart.com/ip/Seagate-Portable-2TB-External-Hard-Drive-USB-3-0-STGX2000400/726640720?classType=REGULAR",
+              "at": 1795805896619
             }
           ],
-          "imageSku": "12568561"
+          "imageSku": "12568561",
+          "photo": "https://i5.walmartimages.com/seo/Seagate-Portable-2TB-External-Hard-Drive-USB-3-0-STGX2000400_254f8792-b71c-4e93-84a4-4f4111ab93db.800245a36aef66a99af32ff13a66c3de.jpeg"
         }
       ]
     },
@@ -64,16 +72,25 @@
           "name": "LG C6 65\" OLED 4K TV",
           "deals": [
             {
-              "store": "Walmart",
-              "price": 1349.99,
-              "regular": 2699.99
-            },
-            {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 1399.99,
+              "url": "https://www.walmart.com/ip/LG-65-C6-Series-4K-UHD-OLED-AI-Smart-webOS-26-TV-OLED65C6PUA/18196407846?classType=REGULAR&athbdg=L1103",
+              "at": 1795805900399
+            },
+            {
+              "store": "Best Buy",
+              "price": 1749.99,
+              "regular": 2348,
+              "url": "https://www.google.com/search?ibp=oshop&q=LG C6 65\" OLED 4K TV&prds=productid:17985692966389929492,headlineOfferDocid:17985692966389929492,imageDocid:4372048020720282480,pvt:hg&hl=en&gl=us&udm=28",
+              "at": 1795805902553
             }
           ],
-          "bestbuySku": "6673112"
+          "bestbuySku": "6673112",
+          "photo": "https://i5.walmartimages.com/seo/LG-65-C6-Series-4K-UHD-OLED-AI-Smart-webOS-26-TV-OLED65C6PUA_26e8bcf1-1be9-437a-af8d-429d8eb5098f.203ff1a873b7f8650ad3a607003c847c.png"
         },
         {
           "name": "Samsung 65\" The Frame Pro Neo QLED 4K",
@@ -81,30 +98,36 @@
             {
               "store": "Best Buy",
               "price": 1499.99,
-              "regular": 1999.0,
+              "regular": 1999,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 1497.99,
+              "url": "https://www.walmart.com/ip/Samsung-65-Class-The-Frame-Pro-Series-Neo-QLED-4K-Samsung-Vision-AI-Smart-TV-Smart-Tizen-TV-2026-QN65LS03HWFXZA/20008614465?classType=VARIANT",
+              "at": 1795805911216
             }
           ],
-          "bestbuySku": "6671651"
+          "bestbuySku": "6671651",
+          "photo": "https://i5.walmartimages.com/seo/Samsung-65-Class-The-Frame-Pro-Series-Neo-QLED-4K-Samsung-Vision-AI-Smart-TV-Smart-Tizen-TV-2026-QN65LS03HWFXZA_57d6bb83-1326-4ef4-9832-343dc713a3b8.5072c451c1d4edf5b5a64ca4ddac86f0.jpeg"
         },
         {
           "name": "TCL 98\" QM7L QD-Mini LED 4K",
           "deals": [
             {
-              "store": "Best Buy",
-              "price": 1999.99,
-              "regular": 3999.0,
-              "start": "2026-11-19",
-              "end": "2026-11-28"
-            },
-            {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Best Buy",
+              "price": 2649.98,
+              "url": "https://www.google.com/search?ibp=oshop&q=TCL 98\" QM7L QD-Mini LED 4K&prds=productid:12488153746387586973,headlineOfferDocid:12488153746387586973,imageDocid:12804902918809422835,pvt:hg&hl=en&gl=us&udm=28",
+              "at": 1795805928473
             }
           ],
           "bestbuySku": "6672673"
@@ -121,9 +144,16 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 298,
+              "url": "https://www.walmart.com/ip/Samsung-65-Class-U8000H-Series-Crystal-UHD-4K-UHD-Samsung-Vision-AI-Companion-Smart-Tizen-TV-2026-UN65U8000HFXZA/18200354479?classType=VARIANT&athbdg=L1300",
+              "at": 1795805931126
             }
           ],
-          "bestbuySku": "6670835"
+          "bestbuySku": "6670835",
+          "photo": "https://i5.walmartimages.com/seo/Samsung-65-Class-U8000H-Series-Crystal-UHD-4K-UHD-Samsung-Vision-AI-Companion-Smart-Tizen-TV-2026-UN65U8000HFXZA_86f64318-e38c-4328-a519-95737b743ce4.b401ef77ece63d81a54a2c45d2d56182.jpeg"
         }
       ]
     },
@@ -135,11 +165,6 @@
           "name": "Nintendo Switch 2 + Mario Kart World bundle",
           "deals": [
             {
-              "store": "Walmart",
-              "price": 499.99,
-              "regular": 549.99
-            },
-            {
               "store": "Best Buy",
               "price": 499.99,
               "regular": 549.99,
@@ -149,9 +174,16 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 499,
+              "url": "https://www.walmart.com/ip/Nintendo-Switch-2-Mario-Kart-World-Bundle/20865751029?classType=REGULAR&athbdg=L1800",
+              "at": 1795805938350
             }
           ],
-          "bestbuySku": "6689812"
+          "bestbuySku": "6689812",
+          "photo": "https://i5.walmartimages.com/seo/Nintendo-Switch-2-Mario-Kart-World-Bundle_46a17dc0-bb6b-4ad1-8739-26b2d78b54c5.238104ef0cc4a19d71d59734bac90e36.jpeg"
         }
       ]
     },
@@ -164,7 +196,7 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 649.0,
+              "price": 649,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
@@ -187,9 +219,16 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 323.99,
+              "url": "https://www.walmart.com/ip/Lenovo-IdeaPad-Slim-3i-15-6-Full-HD-Laptop-Intel-Processor-N150-2024-8GB-Memory-128GB-UFS-Arctic-Grey/20028059239?classType=VARIANT&athbdg=L1103",
+              "at": 1795805947401
             }
           ],
-          "imageSku": "6668412"
+          "imageSku": "6668412",
+          "photo": "https://i5.walmartimages.com/seo/Lenovo-IdeaPad-Slim-3i-15-6-Full-HD-Laptop-Intel-Processor-N150-2024-8GB-Memory-128GB-UFS-Arctic-Grey_c9f08916-f478-402c-99a9-e8cc791c97d7.99abe1170fd108361cedbbd5e91016ad.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         }
       ]
     },
@@ -201,35 +240,48 @@
           "name": "Sony WH-1000XM5 headphones",
           "deals": [
             {
-              "store": "Best Buy",
-              "price": 299.99,
-              "regular": 398.0,
-              "start": "2026-11-19",
-              "end": "2026-11-28"
-            },
-            {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 398,
+              "url": "https://www.walmart.com/ip/Sony-Sony-WH-1000XM5-Best-Wireless-Noise-Canceling-Headphones-Auto-Noise-Canceling-Optimizer-Crystal-Clear-Hands-Free-Calling-Alexa-Voice-Control-Bla/1100914792?classType=VARIANT",
+              "at": 1795805955099
+            },
+            {
+              "store": "Best Buy",
+              "price": 399.99,
+              "url": "https://www.google.com/search?ibp=oshop&q=Sony WH-1000XM5 headphones&prds=catalogid:4188647699921735833,productid:3160798980669882859,headlineOfferDocid:3538657663441462996,imageDocid:4059247161852043331,rds:PC_11726664398501807381|PROD_PC_11726664398501807381,gpcid:11726664398501807381,mid:576462892684740299,pvt:hg&hl=en&gl=us&udm=28",
+              "at": 1795805956081
             }
           ],
-          "bestbuySku": "6505727"
+          "bestbuySku": "6505727",
+          "photo": "https://i5.walmartimages.com/seo/Sony-Sony-WH-1000XM5-Best-Wireless-Noise-Canceling-Headphones-Auto-Noise-Canceling-Optimizer-Crystal-Clear-Hands-Free-Calling-Alexa-Voice-Control-Bla_48e18010-616b-4275-8f24-116622a22d8c.7c404d7b5c2ad2a1bfa374cbde0bb267.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         },
         {
           "name": "Nothing Ear (3a) earbuds",
           "deals": [
             {
               "store": "Best Buy",
-              "price": 69.0,
-              "regular": 99.0,
+              "price": 69,
+              "regular": 99,
               "start": "2026-11-19",
               "end": "2026-11-28"
             },
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 69,
+              "url": "https://www.walmart.com/ip/Nothing-Ear-3a-Noise-Cancelling-Earbuds-45dB-Hybrid-ANC-Hi-Res-Audio-12mm-Dynamic-Bass-Boost-6-Mics-Clear-Calls-Recording-Dual-Connect-Bluetooth-Earp/20146817856?classType=VARIANT&athbdg=L1800",
+              "at": 1795805962149
             }
           ],
-          "bestbuySku": "6686077"
+          "bestbuySku": "6686077",
+          "photo": "https://i5.walmartimages.com/seo/Nothing-Ear-3a-Noise-Cancelling-Earbuds-45dB-Hybrid-ANC-Hi-Res-Audio-12mm-Dynamic-Bass-Boost-6-Mics-Clear-Calls-Recording-Dual-Connect-Bluetooth-Earp_09a8cefa-83da-4c4b-ac28-74bb1f686e04.31262d158ec03de1ad15a024a81104b2.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         }
       ]
     },
@@ -243,8 +295,8 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 749.0,
-              "regular": 1099.0,
+              "price": 749,
+              "regular": 1099,
               "url": "https://www.bestbuy.com/site/6684520.p?skuId=6684520"
             },
             {
@@ -266,8 +318,15 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 674.15,
+              "url": "https://www.walmart.com/ip/Samsung-Galaxy-S26-256GB-Smartphone-Unlocked-Black/19202402404?classType=VARIANT&athbdg=L1800",
+              "at": 1795805990035
             }
-          ]
+          ],
+          "photo": "https://i5.walmartimages.com/seo/Samsung-Galaxy-S26-256GB-Smartphone-Unlocked-Black_c23bc5f2-bc6f-49df-8eb3-e52904abf642.d7631a64f91bda39e7d48b6f6b22cf62.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         },
         {
           "name": "Google Pixel 10 128 GB (Unlocked)",
@@ -275,15 +334,22 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 599.0,
-              "regular": 799.0,
+              "price": 599,
+              "regular": 799,
               "url": "https://www.bestbuy.com/site/6637716.p?skuId=6637716"
             },
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 599,
+              "url": "https://www.walmart.com/ip/Google-Pixel-10-128GB-Brand-New-GSM-Unlocked-Android-Smartphone-with-Gemini-International-Version/19856673581?classType=VARIANT",
+              "at": 1795805995704
             }
-          ]
+          ],
+          "photo": "https://i5.walmartimages.com/seo/Google-Pixel-10-128GB-Brand-New-GSM-Unlocked-Android-Smartphone-with-Gemini-International-Version_32af0ff3-4fb4-4426-9132-b9a00b82b2e7.9573b0758a30e52c9df9c787102cfb59.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         },
         {
           "name": "Motorola razr 2025 256 GB (Unlocked)",
@@ -298,8 +364,15 @@
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 339.95,
+              "url": "https://www.walmart.com/ip/Unlocked-Motorola-Razr-2025-Cell-Phone-12GB-RAM-256GB-Storage-50MP-Camera-Pantone-Mocha-Mousse/21005807852?conditionGroupCode=3&classType=REGULAR",
+              "at": 1795806000460
             }
-          ]
+          ],
+          "photo": "https://i5.walmartimages.com/asr/afd5eab0-08b4-496e-8ce9-b8758b5ee94b.034784cae3399e7983a39e424e63d240.jpeg"
         },
         {
           "name": "Apple iPad 11\" (A16) 128 GB Wi-Fi",
@@ -307,15 +380,22 @@
           "deals": [
             {
               "store": "Best Buy",
-              "price": 399.0,
-              "regular": 449.0,
+              "price": 399,
+              "regular": 449,
               "url": "https://www.bestbuy.com/site/6578270.p?skuId=6578270"
             },
             {
               "store": "Amazon",
               "noPrice": true
+            },
+            {
+              "store": "Walmart",
+              "price": 379,
+              "url": "https://www.walmart.com/ip/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver/15483805722?classType=VARIANT&athbdg=L1800",
+              "at": 1795806012970
             }
-          ]
+          ],
+          "photo": "https://i5.walmartimages.com/seo/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver_706ac209-a7b5-4521-b1dd-524d9a351ef1.7063c7c69acafb1a5587a11ff59ec9e8.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
         }
       ]
     },
