@@ -1,237 +1,351 @@
 {
- "checked": "2026-11-27T06:19:00Z",
- "categories": [
-  {
-   "id": "drives",
-   "name": "Storage & Hard Drives",
-   "items": [
+  "checked": "2026-11-27T18:14:18Z",
+  "categories": [
     {
-     "name": "WD My Passport 2 TB",
-     "bestbuySku": "6356887",
-     "deals": [
-      {
-       "store": "Walmart",
-       "price": 129.99,
-       "start": "2026-11-23",
-       "end": "2026-11-29"
-      },
-      {
-       "store": "Best Buy",
-       "price": 137.99,
-       "regular": 169.99,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
+      "id": "drives",
+      "name": "Storage & Hard Drives",
+      "items": [
+        {
+          "name": "WD My Passport 2 TB",
+          "bestbuySku": "6356887",
+          "deals": [
+            {
+              "store": "Walmart",
+              "price": 129.99,
+              "start": "2026-11-23",
+              "end": "2026-11-29"
+            },
+            {
+              "store": "Best Buy",
+              "price": 137.99,
+              "regular": 169.99,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "WD Elements 2 TB",
+          "deals": [
+            {
+              "store": "Walmart",
+              "price": 132.99,
+              "regular": 169.99,
+              "start": "2026-11-23",
+              "end": "2026-11-29"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Seagate Portable 2 TB",
+          "deals": [
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        }
+      ]
     },
     {
-     "name": "WD Elements 2 TB",
-     "deals": [
-      {
-       "store": "Walmart",
-       "price": 132.99,
-       "regular": 169.99,
-       "start": "2026-11-23",
-       "end": "2026-11-29"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
+      "id": "tvs",
+      "name": "TVs",
+      "items": [
+        {
+          "name": "LG C6 65\" OLED 4K TV",
+          "deals": [
+            {
+              "store": "Walmart",
+              "price": 1349.99,
+              "regular": 2699.99
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Samsung 65\" The Frame Pro Neo QLED 4K",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 1499.0,
+              "regular": 1999.0,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "TCL 98\" QM7L QD-Mini LED 4K",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 1999.0,
+              "regular": 3999.0,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Samsung 65\" U8000H 4K TV",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 299.99,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        }
+      ]
     },
     {
-     "name": "Seagate Portable 2 TB",
-     "deals": [
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
+      "id": "games",
+      "name": "Video Games",
+      "items": [
+        {
+          "name": "Nintendo Switch 2 + Mario Kart World bundle",
+          "deals": [
+            {
+              "store": "Walmart",
+              "price": 499.99,
+              "regular": 549.99
+            },
+            {
+              "store": "Best Buy",
+              "price": 499.99,
+              "regular": 549.99,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laptops",
+      "name": "Laptops",
+      "items": [
+        {
+          "name": "Apple MacBook Neo 13\" 256 GB",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 649.0,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Lenovo IdeaPad Slim 3i",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 479.99,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Headphones & Audio",
+      "items": [
+        {
+          "name": "Sony WH-1000XM5 headphones",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 299.99,
+              "regular": 398.0,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Nothing Ear (3a) earbuds",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 69.0,
+              "regular": 99.0,
+              "start": "2026-11-19",
+              "end": "2026-11-28"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phones",
+      "name": "Phones & Tablets",
+      "items": [
+        {
+          "name": "Google Pixel 11 Pro 256 GB (Unlocked)",
+          "bestbuySku": "6684520",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 749.0,
+              "regular": 1099.0,
+              "url": "https://www.bestbuy.com/site/6684520.p?skuId=6684520"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Samsung Galaxy S26+ 256 GB (Unlocked)",
+          "bestbuySku": "6669730",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 899.99,
+              "regular": 1199.99,
+              "url": "https://www.bestbuy.com/site/6669730.p?skuId=6669730"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Google Pixel 10 128 GB (Unlocked)",
+          "bestbuySku": "6637716",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 599.0,
+              "regular": 799.0,
+              "url": "https://www.bestbuy.com/site/6637716.p?skuId=6637716"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Motorola razr 2025 256 GB (Unlocked)",
+          "bestbuySku": "6625236",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 499.99,
+              "regular": 699.99,
+              "url": "https://www.bestbuy.com/site/6625236.p?skuId=6625236"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Apple iPad 11\" (A16) 128 GB Wi-Fi",
+          "bestbuySku": "6578270",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 399.0,
+              "regular": 449.0,
+              "url": "https://www.bestbuy.com/site/6578270.p?skuId=6578270"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Home & Appliances",
+      "items": [
+        {
+          "name": "Roborock Saros 20X robot vacuum and mop",
+          "bestbuySku": "6672490",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 999.99,
+              "regular": 1599.99,
+              "url": "https://www.bestbuy.com/site/6672490.p?skuId=6672490"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        },
+        {
+          "name": "Ninja Air Fryer Pro XL 6.5 qt",
+          "bestbuySku": "6570528",
+          "deals": [
+            {
+              "store": "Best Buy",
+              "price": 99.99,
+              "regular": 179.99,
+              "url": "https://www.bestbuy.com/site/6570528.p?skuId=6570528"
+            },
+            {
+              "store": "Amazon",
+              "noPrice": true
+            }
+          ]
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "tvs",
-   "name": "TVs",
-   "items": [
-    {
-     "name": "LG C6 65\" OLED 4K TV",
-     "deals": [
-      {
-       "store": "Walmart",
-       "price": 1349.99,
-       "regular": 2699.99
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    },
-    {
-     "name": "Samsung 65\" The Frame Pro Neo QLED 4K",
-     "deals": [
-      {
-       "store": "Best Buy",
-       "price": 1499.0,
-       "regular": 1999.0,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    },
-    {
-     "name": "TCL 98\" QM7L QD-Mini LED 4K",
-     "deals": [
-      {
-       "store": "Best Buy",
-       "price": 1999.0,
-       "regular": 3999.0,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    },
-    {
-     "name": "Samsung 65\" U8000H 4K TV",
-     "deals": [
-      {
-       "store": "Best Buy",
-       "price": 299.99,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "games",
-   "name": "Video Games",
-   "items": [
-    {
-     "name": "Nintendo Switch 2 + Mario Kart World bundle",
-     "deals": [
-      {
-       "store": "Walmart",
-       "price": 499.99,
-       "regular": 549.99
-      },
-      {
-       "store": "Best Buy",
-       "price": 499.99,
-       "regular": 549.99,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "laptops",
-   "name": "Laptops",
-   "items": [
-    {
-     "name": "Apple MacBook Neo 13\" 256 GB",
-     "deals": [
-      {
-       "store": "Best Buy",
-       "price": 649.0,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    },
-    {
-     "name": "Lenovo IdeaPad Slim 3i",
-     "deals": [
-      {
-       "store": "Best Buy",
-       "price": 479.99,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "audio",
-   "name": "Headphones & Audio",
-   "items": [
-    {
-     "name": "Sony WH-1000XM5 headphones",
-     "deals": [
-      {
-       "store": "Best Buy",
-       "price": 299.99,
-       "regular": 398.0,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    },
-    {
-     "name": "Nothing Ear (3a) earbuds",
-     "deals": [
-      {
-       "store": "Best Buy",
-       "price": 69.0,
-       "regular": 99.0,
-       "start": "2026-11-19",
-       "end": "2026-11-28"
-      },
-      {
-       "store": "Amazon",
-       "noPrice": true
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "phones",
-   "name": "Phones & Tablets",
-   "items": []
-  },
-  {
-   "id": "home",
-   "name": "Home & Appliances",
-   "items": []
-  }
- ]
+  ]
 }
