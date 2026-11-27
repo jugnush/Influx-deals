@@ -33,7 +33,7 @@ async function serp(params) {
 
 async function walmart(item, old) {
   const { organic_results: list = [] } = await serp({ engine: "walmart", query: item.walmartQuery || item.name });
-  const hit = list.find((r) => !r.sponsored && r.primary_offer?.offer_price && sameProduct(item.name, r.title));
+  const hit = list.find((r) => !r.sponsored && /^walmart(\.com)?$/i.test(r.seller_name || "") && r.primary_offer?.offer_price && sameProduct(item.name, r.title));
   if (!hit || !sane(hit.primary_offer.offer_price, old)) return null;
   return {
     store: "Walmart",
@@ -65,7 +65,7 @@ async function main() {
 
   for (const cat of data.categories) {
     for (const item of cat.items) {
-      for (const [store, fetchIt] of [["Walmart", walmart], ["Best Buy", bestbuy]]) {
+      for (const [store, fetchIt] of [["Walmart", walmart], ...(process.env.SHOPPING_BESTBUY ? [["Best Buy", bestbuy]] : [])]) {
         if (only && only !== store) continue;
         const old = item.deals.find((d) => d.store === store);
         try {
