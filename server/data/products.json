@@ -1,0 +1,21 @@
+{
+  "checked": "2026-11-27T06:19:00Z",
+  "categories": [
+    {"id":"drives","name":"Storage & Hard Drives","items":[
+      {"name":"WD My Passport 2 TB","bestbuySku":"6356887","deals":[
+        {"store":"Walmart","price":129.99,"start":"2026-11-23","end":"2026-11-29"},
+        {"store":"Best Buy","price":137.99,"regular":169.99,"start":"2026-11-19","end":"2026-11-28"},
+        {"store":"Amazon","noPrice":true}]},
+      {"name":"WD Elements 2 TB","deals":[
+        {"store":"Walmart","price":132.99,"regular":169.99,"start":"2026-11-23","end":"2026-11-29"},
+        {"store":"Amazon","noPrice":true}]},
+      {"name":"Seagate Portable 2 TB","deals":[{"store":"Amazon","noPrice":true}]}
+    ]},
+    {"id":"tvs","name":"TVs","items":[]},
+    {"id":"games","name":"Video Games","items":[]},
+    {"id":"laptops","name":"Laptops","items":[]},
+    {"id":"audio","name":"Headphones & Audio","items":[]},
+    {"id":"phones","name":"Phones & Tablets","items":[]},
+    {"id":"home","name":"Home & Appliances","items":[]}
+  ]
+}
