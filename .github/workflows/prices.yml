@@ -1,0 +1,29 @@
+name: Update prices
+
+on:
+  schedule:
+    - cron: "0 12 */5 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: prices
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node server/update.js
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+      - name: Save new prices
+        run: |
+          git config user.name "Jugnu"
+          git config user.email "jugnush@users.noreply.github.com"
+          git add server/data/products.json
+          git diff --cached --quiet || (git commit -m "Update prices" && git push)

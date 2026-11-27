@@ -23,9 +23,9 @@ async function refresh() {
         ]);
         if (bb?.at || wm?.at) live = true;
         item.deals = swap(swap(item.deals, bb), wm);
-        item.image = bb?.image || wm?.image || picture(item.bestbuySku || item.imageSku);
+        item.image = bb?.image || wm?.image || picture(item.bestbuySku || item.imageSku) || item.photo;
       } catch (e) {
-        item.image ??= picture(item.bestbuySku || item.imageSku);
+        item.image ??= picture(item.bestbuySku || item.imageSku) || item.photo;
         console.error(item.name, e.message);
       }
     }
