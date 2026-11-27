@@ -9,11 +9,12 @@ Live: https://influx-deals.onrender.com
 ## Architecture
 
 ```
- GitHub Actions (every 5 days)              GitHub Actions (every push)
+ GitHub Actions (weekly)                   GitHub Actions (every push)
  ┌───────────────────────────────┐          ┌──────────────────────────┐
  │ update-prices                 │          │ CI: npm test, npm build  │
  │  scheduled providers          │          └──────────────────────────┘
- │   └─ Walmart (SerpApi)        │
+ │   ├─ Walmart (SerpApi)        │
+ │   └─ Best Buy (SerpApi, SKU)  │
  │  match + sanity checks        │
  │  test + build                 │
  │  commit products.json ────────┼──┐
@@ -52,7 +53,9 @@ Live: https://influx-deals.onrender.com
 { store, mode: "live" | "scheduled", enabled(), fetch(item, oldDeal) }
 ```
 
-`live` providers (Best Buy, free API) run inside the server behind a 30 minute cache. `scheduled` providers (Walmart via SerpApi, paid per call) only run in the workflow, so a cold start on the free hosting tier never spends API quota. Adding a store means adding one file in `server/providers/`.
+`live` providers (Best Buy, free API) run inside the server behind a 30 minute cache. `scheduled` providers (Walmart and Best Buy via SerpApi, paid per call) only run in the workflow, so a cold start on the free hosting tier never spends API quota. Adding a store means adding one file in `server/providers/`.
+
+Until the Best Buy API key is active, Best Buy prices come from Google's product offers through SerpApi. An offer is only accepted when its Best Buy link carries the exact SKU we track, so a similar model or an open-box listing can never slip in. Once `BESTBUY_KEY` is set, this provider switches itself off and the official API takes over.
 
 **Trust the data before showing it.** `server/match.js` decides whether a search result is really the same product:
 
@@ -79,7 +82,7 @@ npm test
 | Variable | Where | Purpose |
 |---|---|---|
 | `BESTBUY_KEY` | Render | Best Buy Products API key, enables live Best Buy prices |
-| `SERPAPI_KEY` | GitHub Actions secret | Walmart prices for the scheduled job |
+| `SERPAPI_KEY` | GitHub Actions secret | Walmart and Best Buy prices for the scheduled job |
 | `WALMART_AFFILIATE` | Render | Tracking link, `{url}` is replaced with the product link |
 | `BESTBUY_AFFILIATE` | Render | Same, for Best Buy |
 
