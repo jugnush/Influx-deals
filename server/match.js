@@ -24,3 +24,9 @@ export function sanePrice(price, old) {
   if (!old?.price) return true;
   return price > old.price * 0.3 && price < old.price * 3;
 }
+
+export function keepDates(old, price) {
+  if (!old) return {};
+  const { start, end, ...rest } = old;
+  return old.price === price ? old : rest;
+}

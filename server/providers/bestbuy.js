@@ -1,4 +1,4 @@
-import { sanePrice } from "../match.js";
+import { keepDates, sanePrice } from "../match.js";
 
 const skus = new Map();
 
@@ -29,7 +29,7 @@ export const bestbuy = {
     const [p] = await query(`sku=${sku}`, "salePrice,regularPrice,onSale,url,image");
     if (!p || !sanePrice(p.salePrice, old)) return null;
     return {
-      ...old,
+      ...keepDates(old, p.salePrice),
       store: "Best Buy",
       price: p.salePrice,
       regular: p.onSale ? p.regularPrice : undefined,

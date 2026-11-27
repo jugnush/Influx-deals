@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { sameProduct, sanePrice, words } from "../server/match.js";
+import { keepDates, sameProduct, sanePrice, words } from "../server/match.js";
 
 test("storage sizes are compared as one token", () => {
   assert.deepEqual(words("WD My Passport 2 TB"), ["wd", "my", "passport", "2tb"]);
@@ -38,4 +38,11 @@ test("price sanity bounds", () => {
   assert.equal(sanePrice(0, undefined), false);
   assert.equal(sanePrice(299, { price: 1999 }), false);
   assert.equal(sanePrice(7000, { price: 1999 }), false);
+});
+
+test("deal dates are kept only while the price stays the same", () => {
+  const old = { store: "Best Buy", price: 299.99, start: "2026-11-19", end: "2026-11-28", url: "u" };
+  assert.deepEqual(keepDates(old, 299.99), old);
+  assert.deepEqual(keepDates(old, 169.99), { store: "Best Buy", price: 299.99, url: "u" });
+  assert.deepEqual(keepDates(undefined, 10), {});
 });

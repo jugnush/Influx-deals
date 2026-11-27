@@ -1,4 +1,4 @@
-import { sameProduct, sanePrice } from "../match.js";
+import { keepDates, sameProduct, sanePrice } from "../match.js";
 import { serp } from "./serpapi.js";
 
 export function bestBuyOffer(stores, sku) {
@@ -25,7 +25,7 @@ export const bestbuySerp = {
 
     const was = offer.extracted_original_price;
     return {
-      ...old,
+      ...keepDates(old, offer.extracted_price),
       store: "Best Buy",
       price: offer.extracted_price,
       regular: was > offer.extracted_price ? was : undefined,
