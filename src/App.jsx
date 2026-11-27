@@ -12,6 +12,31 @@ function status(d) {
   if (d.end && t > d.end) return ["Ended", "off"];
   return [d.end ? `On until ${d.end}` : "On", "on"];
 }
+function BestDeals({ cats, pct, pick }) {
+  const list = cats.flatMap((c) => c.items.flatMap((i) => i.deals
+    .filter((d) => d.price > 0 && d.regular > d.price && status(d)[1] === "on")
+    .map((d) => ({ ...d, cat: c, name: i.name, off: Math.round((1 - d.price / d.regular) * 100) }))))
+    .sort((a, b) => b.off - a.off || (b.regular - b.price) - (a.regular - a.price))
+    .filter((d, n, all) => all.findIndex((x) => x.name === d.name) === n)
+    .slice(0, 4);
+  if (!list.length) return null;
+  return (
+    <section className="top">
+      <h2>Best deals right now</h2>
+      <div className="topgrid">
+        {list.map((d) => (
+          <button key={d.name} className="topcard" onClick={() => pick(d.cat.id)}>
+            <span className="off">{d.off}% off</span>
+            <span className="tname">{d.name}</span>
+            <span className="tprice">{money(d.price * (1 - pct))}</span>
+            <span className="fin">{d.store} · was {money(d.regular)} · save {money(d.regular - d.price)}</span>
+            <span className="fin">{d.end ? `Ends ${d.end}` : "No end date listed"} · {d.cat.name}</span>
+          </button>
+        ))}
+      </div>
+    </section>
+  );
+}
 function Ad({ id }) { return <div className="ad" id={id}>Ad space</div>; }
 
 function Product({ item, pct, best }) {
@@ -85,9 +110,10 @@ export default function App() {
           <input type="number" min="0" step="0.5" value={site} onChange={(e) => setSite(e.target.value)} />
         </label>
       </div>
+      {data && <BestDeals cats={data.categories} pct={pct} pick={(id) => { setCatId(id); document.getElementById("list")?.scrollIntoView({ behavior: "smooth" }); }} />}
       <Ad id="ad-top" />
       {cat && items.length === 0 && <p className="soon">Deals for {cat.name} are coming soon.</p>}
-      <div className="grid">
+      <div className="grid" id="list">
         {items.map((i, n) => <Product key={i.name} item={i} pct={pct} best={n === firstPriced} />)}
       </div>
       <Ad id="ad-bottom" />
