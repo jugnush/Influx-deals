@@ -7,7 +7,6 @@
       "items": [
         {
           "name": "WD My Passport 2 TB",
-          "bestbuySku": "6356887",
           "deals": [
             {
               "store": "Walmart",
@@ -26,7 +25,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "imageSku": "11013494"
         },
         {
           "name": "WD Elements 2 TB",
@@ -51,7 +51,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "imageSku": "12568561"
         }
       ]
     },
@@ -71,14 +72,15 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6673112"
         },
         {
           "name": "Samsung 65\" The Frame Pro Neo QLED 4K",
           "deals": [
             {
               "store": "Best Buy",
-              "price": 1499.0,
+              "price": 1499.99,
               "regular": 1999.0,
               "start": "2026-11-19",
               "end": "2026-11-28"
@@ -87,14 +89,15 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6671651"
         },
         {
           "name": "TCL 98\" QM7L QD-Mini LED 4K",
           "deals": [
             {
               "store": "Best Buy",
-              "price": 1999.0,
+              "price": 1999.99,
               "regular": 3999.0,
               "start": "2026-11-19",
               "end": "2026-11-28"
@@ -103,7 +106,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6672673"
         },
         {
           "name": "Samsung 65\" U8000H 4K TV",
@@ -118,7 +122,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6670835"
         }
       ]
     },
@@ -138,14 +143,15 @@
               "store": "Best Buy",
               "price": 499.99,
               "regular": 549.99,
-              "start": "2026-11-19",
-              "end": "2026-11-28"
+              "start": "2026-11-22",
+              "end": "2026-12-05"
             },
             {
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6689812"
         }
       ]
     },
@@ -166,7 +172,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6615878"
         },
         {
           "name": "Lenovo IdeaPad Slim 3i",
@@ -181,7 +188,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "imageSku": "6668412"
         }
       ]
     },
@@ -203,7 +211,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6505727"
         },
         {
           "name": "Nothing Ear (3a) earbuds",
@@ -219,7 +228,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuySku": "6686077"
         }
       ]
     },

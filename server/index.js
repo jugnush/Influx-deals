@@ -4,26 +4,33 @@ import { catalog } from "./providers/catalog.js";
 import { bestbuyPrice } from "./providers/bestbuy.js";
 import { walmartPrice } from "./providers/walmart.js";
 
-const TTL = 30 * 60 * 1000
+const TTL = 30 * 60 * 1000;
 let cache = null;
 let pending = null;
 
+const picture = (sku) => sku ? `https://pisces.bbystatic.com/image2/BestBuy_US/images/products/${sku.slice(0, 4)}/${sku}_sd.jpg` : undefined;
 const swap = (deals, d) => d ? [...deals.filter((x) => x.store !== d.store), d] : deals;
 
 async function refresh() {
   const c = await catalog();
+  let live = false;
   for (const cat of c.categories) {
     for (const item of cat.items) {
       try {
         const [bb, wm] = await Promise.all([
-          item.bestbuySku ? bestbuyPrice(item.bestbuySku) : null,
+          bestbuyPrice(item),
           walmartPrice(item)
         ]);
+        if (bb?.at || wm?.at) live = true;
         item.deals = swap(swap(item.deals, bb), wm);
-      } catch (e) { console.error(item.name, e.message); }
+        item.image = bb?.image || wm?.image || picture(item.bestbuySku || item.imageSku);
+      } catch (e) {
+        item.image ??= picture(item.bestbuySku || item.imageSku);
+        console.error(item.name, e.message);
+      }
     }
   }
-  cache = { categories: c.categories, checked: Date.now(), dataChecked: c.checked };
+  cache = { categories: c.categories, checked: Date.now(), dataChecked: live ? Date.now() : c.checked };
 }
 
 async function getData() {
