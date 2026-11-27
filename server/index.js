@@ -41,12 +41,28 @@ async function getData() {
   return cache;
 }
 
+const affiliate = { "Walmart": process.env.WALMART_AFFILIATE, "Best Buy": process.env.BESTBUY_AFFILIATE };
+
+function tag(d) {
+  const t = affiliate[d.store];
+  if (!t || !d.url) return d;
+  return { ...d, url: t.includes("{url}") ? t.replace("{url}", encodeURIComponent(d.url)) : t + encodeURIComponent(d.url) };
+}
+
+function withLinks(data) {
+  if (!affiliate.Walmart && !affiliate["Best Buy"]) return data;
+  return {
+    ...data,
+    categories: data.categories.map((c) => ({ ...c, items: c.items.map((i) => ({ ...i, deals: i.deals.map(tag) })) }))
+  };
+}
+
 const app = express();
 app.disable("x-powered-by");
 app.get("/api/deals", async (req, res) => {
   try {
     res.set("Cache-Control", "public, max-age=300");
-    res.json(await getData());
+    res.json(withLinks(await getData()));
   } catch (e) {
     res.status(502).json({ error: "Could not load deals" });
   }
