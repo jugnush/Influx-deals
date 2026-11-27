@@ -93,7 +93,8 @@
             }
           ],
           "bestbuySku": "6671651",
-          "searchName": "Samsung 65 inch The Frame Pro LS03HW 2026"
+          "searchName": "Samsung 65 inch The Frame Pro LS03HW 2026",
+          "bestbuyCode": "JJGRF3QH8H"
         },
         {
           "name": "TCL 98\" QM7L QD-Mini LED 4K",
@@ -110,7 +111,8 @@
               "noPrice": true
             }
           ],
-          "bestbuySku": "6672673"
+          "bestbuySku": "6672673",
+          "bestbuyCode": "J36QYTH8GG"
         },
         {
           "name": "Samsung 65\" U8000H 4K TV",
@@ -133,7 +135,8 @@
             }
           ],
           "bestbuySku": "6670835",
-          "photo": "https://i5.walmartimages.com/seo/Samsung-65-Class-U8000H-Series-Crystal-UHD-4K-UHD-Samsung-Vision-AI-Companion-Smart-Tizen-TV-2026-UN65U8000HFXZA_86f64318-e38c-4328-a519-95737b743ce4.b401ef77ece63d81a54a2c45d2d56182.jpeg"
+          "photo": "https://i5.walmartimages.com/seo/Samsung-65-Class-U8000H-Series-Crystal-UHD-4K-UHD-Samsung-Vision-AI-Companion-Smart-Tizen-TV-2026-UN65U8000HFXZA_86f64318-e38c-4328-a519-95737b743ce4.b401ef77ece63d81a54a2c45d2d56182.jpeg",
+          "bestbuyCode": "JJGRF3QTGR"
         }
       ]
     },
@@ -164,7 +167,8 @@
           ],
           "bestbuySku": "6689812",
           "photo": "https://i5.walmartimages.com/seo/Nintendo-Switch-2-Mario-Kart-World-Bundle_46a17dc0-bb6b-4ad1-8739-26b2d78b54c5.238104ef0cc4a19d71d59734bac90e36.jpeg",
-          "searchName": "Nintendo Switch 2 Mario Kart World Bundle console"
+          "searchName": "Nintendo Switch 2 Mario Kart World Bundle console",
+          "bestbuyCode": "J7GSL57WWG"
         }
       ]
     },
@@ -225,7 +229,8 @@
               "at": 1795808942204
             }
           ],
-          "bestbuySku": "6505727"
+          "bestbuySku": "6505727",
+          "bestbuyCode": "J7XSRH5CXG"
         },
         {
           "name": "Nothing Ear (3a) earbuds",
@@ -264,7 +269,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuyCode": "J39TC8239J"
         },
         {
           "name": "Samsung Galaxy S26+ 256 GB (Unlocked)",
@@ -280,7 +286,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuyCode": "JJGRF368TV"
         },
         {
           "name": "Google Pixel 10 128 GB (Unlocked)",
@@ -297,7 +304,8 @@
               "noPrice": true
             }
           ],
-          "searchName": "Google Pixel 10 128GB Unlocked phone"
+          "searchName": "Google Pixel 10 128GB Unlocked phone",
+          "bestbuyCode": "J39TC8JG4L"
         },
         {
           "name": "Motorola razr 2025 256 GB (Unlocked)",
@@ -313,7 +321,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "bestbuyCode": "J39QWYQHX4"
         },
         {
           "name": "Apple iPad 11\" (A16) 128 GB Wi-Fi",
@@ -336,7 +345,8 @@
               "at": 1795808561472
             }
           ],
-          "photo": "https://i5.walmartimages.com/seo/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver_706ac209-a7b5-4521-b1dd-524d9a351ef1.7063c7c69acafb1a5587a11ff59ec9e8.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+          "photo": "https://i5.walmartimages.com/seo/Apple-iPad-11-inch-A16-Wi-Fi-128GB-Silver_706ac209-a7b5-4521-b1dd-524d9a351ef1.7063c7c69acafb1a5587a11ff59ec9e8.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+          "bestbuyCode": "JJGCQG3RC2"
         }
       ]
     },
@@ -359,7 +369,8 @@
               "noPrice": true
             }
           ],
-          "searchName": "Roborock Saros 20X"
+          "searchName": "Roborock Saros 20X",
+          "bestbuyCode": "JJ8F5PCTVJ"
         },
         {
           "name": "Ninja Air Fryer Pro XL 6.5 qt",
@@ -376,7 +387,8 @@
               "noPrice": true
             }
           ],
-          "searchName": "Ninja Air Fryer Pro XL 6.5 qt AF181"
+          "searchName": "Ninja Air Fryer Pro XL 6.5 qt AF181",
+          "bestbuyCode": "JXJVXGVTJP"
         }
       ]
     }

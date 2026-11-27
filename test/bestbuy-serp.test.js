@@ -26,3 +26,18 @@ test("offers without a price are skipped", () => {
   const noPrice = [{ name: "Best Buy", link: "https://www.bestbuy.com/site/6673112.p?skuId=6673112" }];
   assert.equal(bestBuyOffer(noPrice, "6673112"), undefined);
 });
+
+test("new style links match on the product code", () => {
+  const list = [
+    { name: "Best Buy", link: "https://www.bestbuy.com/product/roborock-saros-20x/JJ8F5PCTVJ", extracted_price: 999.99 },
+    { name: "Best Buy", link: "https://www.bestbuy.com/product/other/JJ8F5PCTVJX", extracted_price: 10 }
+  ];
+  assert.equal(bestBuyOffer(list, "6672490", "JJ8F5PCTVJ").extracted_price, 999.99);
+  assert.equal(bestBuyOffer(list.slice(1), "6672490", "JJ8F5PCTVJ"), undefined);
+  assert.equal(bestBuyOffer(list, "6672490"), undefined);
+});
+
+test("new style links with a sku path also match", () => {
+  const list = [{ name: "Best Buy", link: "https://www.bestbuy.com/product/x/J7GSL57WWG/sku/6689812", extracted_price: 499.99 }];
+  assert.equal(bestBuyOffer(list, "6689812").extracted_price, 499.99);
+});

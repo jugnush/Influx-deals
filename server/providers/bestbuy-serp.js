@@ -7,8 +7,10 @@ function why(item, reason, details) {
   for (const d of details) console.log(`    - ${d}`);
 }
 
-export function bestBuyOffer(stores, sku) {
-  const pattern = new RegExp(`(skuId=|/)${sku}(\\.p|&|$|\\?)`);
+export function bestBuyOffer(stores, sku, code) {
+  const ids = [`(skuId=|/)${sku}(\\.p|&|$|\\?|/)`];
+  if (code) ids.push(`/${code}($|\\?|/|#)`);
+  const pattern = new RegExp(ids.join("|"));
   return stores.find((s) => /best ?buy/i.test(s.name || "") && pattern.test(s.link || "") && s.extracted_price > 0);
 }
 
@@ -36,7 +38,7 @@ export const bestbuySerp = {
     for (const product of candidates) {
       const page = await serp({ engine: "google_immersive_product", page_token: product.immersive_product_page_token, more_stores: "true" });
       const stores = page.product_results?.stores ?? [];
-      offer = bestBuyOffer(stores, sku);
+      offer = bestBuyOffer(stores, sku, item.bestbuyCode);
       if (offer) break;
       why(item, `no Best Buy offer for sku ${sku} in "${product.title}"`, stores.map((s) => `${s.name}: ${s.extracted_price} ${s.link?.slice(0, 120)}`));
     }
