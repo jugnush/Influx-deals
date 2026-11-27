@@ -4,7 +4,8 @@ import { active } from "./providers/index.js";
 const file = new URL("./data/products.json", import.meta.url);
 
 async function main() {
-  const jobs = active("scheduled");
+  const only = process.env.ONLY_STORE;
+  const jobs = active("scheduled").filter((p) => !only || p.store === only);
   if (!jobs.length) throw new Error("No scheduled provider is configured (set SERPAPI_KEY)");
 
   const data = JSON.parse(await readFile(file, "utf8"));

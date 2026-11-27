@@ -4,6 +4,14 @@ on:
   schedule:
     - cron: "0 12 * * 1"
   workflow_dispatch:
+    inputs:
+      store:
+        description: "Only this store (Walmart or Best Buy), empty for all"
+        required: false
+      debug:
+        description: "Log why a product was not matched"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,6 +34,8 @@ jobs:
         run: npm run update-prices
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          ONLY_STORE: ${{ inputs.store }}
+          DEBUG_PRICES: ${{ inputs.debug && '1' || '' }}
 
       - name: Check before saving
         run: |
