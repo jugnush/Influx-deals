@@ -1,5 +1,5 @@
 const filler = new Set(["the", "with", "and", "for", "in", "of", "class", "series", "smart", "tv", "unlocked", "bundle"]);
-const variants = new Set(["pro", "plus", "max", "ultra", "mini", "lite", "fe", "xl", "slim", "air", "renewed", "refurbished", "restored"]);
+const variants = new Set(["pro", "plus", "max", "ultra", "mini", "lite", "fe", "xl", "slim", "air", "renewed", "refurbished", "restored", "recertified", "used", "owned", "grade", "package", "combo", "soundbar"]);
 
 export function words(text) {
   return text

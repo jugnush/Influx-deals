@@ -78,7 +78,7 @@
           "photo": "https://i5.walmartimages.com/seo/LG-65-C6-Series-4K-UHD-OLED-AI-Smart-webOS-26-TV-OLED65C6PUA_26e8bcf1-1be9-437a-af8d-429d8eb5098f.203ff1a873b7f8650ad3a607003c847c.png"
         },
         {
-          "name": "Samsung 65\" The Frame Pro Neo QLED 4K",
+          "name": "Samsung 65\" The Frame Pro 4K TV",
           "deals": [
             {
               "store": "Best Buy",
@@ -92,7 +92,8 @@
               "noPrice": true
             }
           ],
-          "bestbuySku": "6671651"
+          "bestbuySku": "6671651",
+          "searchName": "Samsung 65 inch The Frame Pro LS03HW 2026"
         },
         {
           "name": "TCL 98\" QM7L QD-Mini LED 4K",
@@ -162,7 +163,8 @@
             }
           ],
           "bestbuySku": "6689812",
-          "photo": "https://i5.walmartimages.com/seo/Nintendo-Switch-2-Mario-Kart-World-Bundle_46a17dc0-bb6b-4ad1-8739-26b2d78b54c5.238104ef0cc4a19d71d59734bac90e36.jpeg"
+          "photo": "https://i5.walmartimages.com/seo/Nintendo-Switch-2-Mario-Kart-World-Bundle_46a17dc0-bb6b-4ad1-8739-26b2d78b54c5.238104ef0cc4a19d71d59734bac90e36.jpeg",
+          "searchName": "Nintendo Switch 2 Mario Kart World Bundle console"
         }
       ]
     },
@@ -294,7 +296,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "searchName": "Google Pixel 10 128GB Unlocked phone"
         },
         {
           "name": "Motorola razr 2025 256 GB (Unlocked)",
@@ -355,7 +358,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "searchName": "Roborock Saros 20X"
         },
         {
           "name": "Ninja Air Fryer Pro XL 6.5 qt",
@@ -371,7 +375,8 @@
               "store": "Amazon",
               "noPrice": true
             }
-          ]
+          ],
+          "searchName": "Ninja Air Fryer Pro XL 6.5 qt AF181"
         }
       ]
     }

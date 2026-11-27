@@ -21,20 +21,26 @@ export const bestbuySerp = {
     const sku = item.bestbuySku;
     if (!sku) return null;
 
-    const { shopping_results: list = [] } = await serp({ engine: "google_shopping", q: item.name, gl: "us", hl: "en" });
-    const product = list.find((r) => r.immersive_product_page_token && sameProduct(item.name, r.title));
-    if (!product) {
+    const q = item.searchName || item.name;
+    const { shopping_results: list = [] } = await serp({ engine: "google_shopping", q: q + " Best Buy", gl: "us", hl: "en" });
+    const candidates = list
+      .filter((r) => r.immersive_product_page_token && sameProduct(item.name, r.title))
+      .sort((a, b) => /best ?buy/i.test(b.source || "") - /best ?buy/i.test(a.source || ""))
+      .slice(0, 2);
+    if (!candidates.length) {
       why(item, "no shopping match", list.slice(0, 5).map((r) => `${r.source}: ${r.title}${r.immersive_product_page_token ? "" : " [no token]"}`));
       return null;
     }
 
-    const page = await serp({ engine: "google_immersive_product", page_token: product.immersive_product_page_token, more_stores: "true" });
-    const stores = page.product_results?.stores ?? [];
-    const offer = bestBuyOffer(stores, sku);
-    if (!offer) {
+    let offer;
+    for (const product of candidates) {
+      const page = await serp({ engine: "google_immersive_product", page_token: product.immersive_product_page_token, more_stores: "true" });
+      const stores = page.product_results?.stores ?? [];
+      offer = bestBuyOffer(stores, sku);
+      if (offer) break;
       why(item, `no Best Buy offer for sku ${sku} in "${product.title}"`, stores.map((s) => `${s.name}: ${s.extracted_price} ${s.link?.slice(0, 120)}`));
-      return null;
     }
+    if (!offer) return null;
     if (!sanePrice(offer.extracted_price, old)) {
       why(item, `price ${offer.extracted_price} rejected, last known ${old?.price}`, []);
       return null;

@@ -46,3 +46,9 @@ test("deal dates are kept only while the price stays the same", () => {
   assert.deepEqual(keepDates(old, 169.99), { store: "Best Buy", price: 299.99, url: "u" });
   assert.deepEqual(keepDates(undefined, 10), {});
 });
+
+test("packages, combos and recertified listings are rejected", () => {
+  assert.equal(sameProduct("Samsung Galaxy S26+ 256 GB (Unlocked)", "Recertified - Samsung Galaxy S26+ Unlocked 256GB Cobalt Violet (Grade B)"), false);
+  assert.equal(sameProduct("TCL 98\" QM7L QD-Mini LED 4K", "Package - TCL - 98\" Class QM7L Series 4K UHD HDR SQD-Mini LED Smart TV and Q85H Sound Bar"), false);
+  assert.equal(sameProduct("LG C6 65\" OLED 4K TV", "LG 65\" Class C6 Series 4K OLED evo AI Smart TV with 5.1.3 Channel Soundbar System"), false);
+});
