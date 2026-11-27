@@ -57,7 +57,7 @@ function Product({ item, pct, best }) {
           return <li key={d.store}><span>{d.store}</span><b>{money(d.fin)}</b><span className={"pill " + tone}>{label}</span>
             {d.url && <a href={d.url} rel="sponsored noopener">View</a>}</li>;
         })}
-        {blank.map((d) => <li key={d.store}><span>{d.store}</span><span className="mute">Check price on {d.store}</span>
+        {blank.map((d) => <li key={d.store}><span>{d.store}</span><span className="mute">Price not shown here</span>
           {d.url && <a href={d.url} rel="sponsored noopener">View</a>}</li>)}
       </ul>
     </article>
