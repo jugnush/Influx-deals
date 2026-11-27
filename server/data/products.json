@@ -1,21 +1,237 @@
 {
-  "checked": "2026-11-27T06:19:00Z",
-  "categories": [
-    {"id":"drives","name":"Storage & Hard Drives","items":[
-      {"name":"WD My Passport 2 TB","bestbuySku":"6356887","deals":[
-        {"store":"Walmart","price":129.99,"start":"2026-11-23","end":"2026-11-29"},
-        {"store":"Best Buy","price":137.99,"regular":169.99,"start":"2026-11-19","end":"2026-11-28"},
-        {"store":"Amazon","noPrice":true}]},
-      {"name":"WD Elements 2 TB","deals":[
-        {"store":"Walmart","price":132.99,"regular":169.99,"start":"2026-11-23","end":"2026-11-29"},
-        {"store":"Amazon","noPrice":true}]},
-      {"name":"Seagate Portable 2 TB","deals":[{"store":"Amazon","noPrice":true}]}
-    ]},
-    {"id":"tvs","name":"TVs","items":[]},
-    {"id":"games","name":"Video Games","items":[]},
-    {"id":"laptops","name":"Laptops","items":[]},
-    {"id":"audio","name":"Headphones & Audio","items":[]},
-    {"id":"phones","name":"Phones & Tablets","items":[]},
-    {"id":"home","name":"Home & Appliances","items":[]}
-  ]
+ "checked": "2026-11-27T06:19:00Z",
+ "categories": [
+  {
+   "id": "drives",
+   "name": "Storage & Hard Drives",
+   "items": [
+    {
+     "name": "WD My Passport 2 TB",
+     "bestbuySku": "6356887",
+     "deals": [
+      {
+       "store": "Walmart",
+       "price": 129.99,
+       "start": "2026-11-23",
+       "end": "2026-11-29"
+      },
+      {
+       "store": "Best Buy",
+       "price": 137.99,
+       "regular": 169.99,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    },
+    {
+     "name": "WD Elements 2 TB",
+     "deals": [
+      {
+       "store": "Walmart",
+       "price": 132.99,
+       "regular": 169.99,
+       "start": "2026-11-23",
+       "end": "2026-11-29"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    },
+    {
+     "name": "Seagate Portable 2 TB",
+     "deals": [
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tvs",
+   "name": "TVs",
+   "items": [
+    {
+     "name": "LG C6 65\" OLED 4K TV",
+     "deals": [
+      {
+       "store": "Walmart",
+       "price": 1349.99,
+       "regular": 2699.99
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    },
+    {
+     "name": "Samsung 65\" The Frame Pro Neo QLED 4K",
+     "deals": [
+      {
+       "store": "Best Buy",
+       "price": 1499.0,
+       "regular": 1999.0,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    },
+    {
+     "name": "TCL 98\" QM7L QD-Mini LED 4K",
+     "deals": [
+      {
+       "store": "Best Buy",
+       "price": 1999.0,
+       "regular": 3999.0,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    },
+    {
+     "name": "Samsung 65\" U8000H 4K TV",
+     "deals": [
+      {
+       "store": "Best Buy",
+       "price": 299.99,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "games",
+   "name": "Video Games",
+   "items": [
+    {
+     "name": "Nintendo Switch 2 + Mario Kart World bundle",
+     "deals": [
+      {
+       "store": "Walmart",
+       "price": 499.99,
+       "regular": 549.99
+      },
+      {
+       "store": "Best Buy",
+       "price": 499.99,
+       "regular": 549.99,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laptops",
+   "name": "Laptops",
+   "items": [
+    {
+     "name": "Apple MacBook Neo 13\" 256 GB",
+     "deals": [
+      {
+       "store": "Best Buy",
+       "price": 649.0,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    },
+    {
+     "name": "Lenovo IdeaPad Slim 3i",
+     "deals": [
+      {
+       "store": "Best Buy",
+       "price": 479.99,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "audio",
+   "name": "Headphones & Audio",
+   "items": [
+    {
+     "name": "Sony WH-1000XM5 headphones",
+     "deals": [
+      {
+       "store": "Best Buy",
+       "price": 299.99,
+       "regular": 398.0,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    },
+    {
+     "name": "Nothing Ear (3a) earbuds",
+     "deals": [
+      {
+       "store": "Best Buy",
+       "price": 69.0,
+       "regular": 99.0,
+       "start": "2026-11-19",
+       "end": "2026-11-28"
+      },
+      {
+       "store": "Amazon",
+       "noPrice": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phones",
+   "name": "Phones & Tablets",
+   "items": []
+  },
+  {
+   "id": "home",
+   "name": "Home & Appliances",
+   "items": []
+  }
+ ]
 }
