@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27T19:42:42.241Z",
+  "checked": "2026-11-27T19:44:38.637Z",
   "categories": [
     {
       "id": "drives",
@@ -220,7 +220,7 @@
               "price": 169.99,
               "regular": 398,
               "url": "https://www.bestbuy.com/site/6505727.p?skuId=6505727",
-              "at": 1795808550472
+              "at": 1795808677984
             }
           ],
           "bestbuySku": "6505727"
